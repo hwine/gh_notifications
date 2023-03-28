@@ -1,1 +1,1 @@
-export GITHUB_TOKEN=$(op item get "GitHub test PAT" --field credential)
+export GITHUB_TOKEN=$(op item get "GH notification PAT" --field credential)

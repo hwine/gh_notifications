@@ -42,6 +42,9 @@ cd $INSTALL_DIR
 hatch run python -m gh_notifications
 ```
 
+_Caveat: currently, this only reports repository notifications. It does not
+include dependabot or security notifications._
+
 
 ### Authentication
 
